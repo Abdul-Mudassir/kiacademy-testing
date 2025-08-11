@@ -47,7 +47,6 @@ const nextConfig = {
       },
     ],
   },
-  distDir: 'build',
   webpack: (config) => {
     // Keep default Next.js optimization
     return config;
